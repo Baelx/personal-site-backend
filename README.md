@@ -1,6 +1,10 @@
 # Backend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
+Interface for managing blog posts
+
+## For backend, [see here](https://github.com/Baelx/personal-site-backend)
+## For frontend, [see here](https://github.com/Baelx/personal-site-frontend)
+___
 
 ## Development server
 
