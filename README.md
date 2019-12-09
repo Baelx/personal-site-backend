@@ -1,8 +1,8 @@
 # Backend
 
-Interface for managing blog posts
+Interface for managing blog posts. Uses same api service as frontend
 
-## For backend, [see here](https://github.com/Baelx/personal-site-backend)
+## For api, [see here](https://github.com/Baelx/personal-site-api)
 ## For frontend, [see here](https://github.com/Baelx/personal-site-frontend)
 ___
 
