@@ -8,11 +8,14 @@ import {MatButtonModule} from '@angular/material/button';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { LoginComponent } from './pages/login/login.component';
 import { AppRoutingModule } from './app-routing.module';
+import { QuillModule } from 'ngx-quill';
+import { PostEditComponent } from './posts/post-edit/post-edit.component';
 
 @NgModule({
    declarations: [
       AppComponent,
-      LoginComponent
+      LoginComponent,
+      PostEditComponent
    ],
    imports: [
       BrowserModule,
@@ -24,6 +27,7 @@ import { AppRoutingModule } from './app-routing.module';
       MatButtonModule,
       MatIconModule,
       FormsModule,
+      QuillModule.forRoot(),
       ReactiveFormsModule,
       AppRoutingModule
    ],
