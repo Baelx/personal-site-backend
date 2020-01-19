@@ -9,6 +9,11 @@
       <input type="text" class="form-control" id="postSummary" placeholder="Post Summary" name="summary" ngModel required>
       <label for="postCategories">Post Categories</label>
       <input type="text" class="form-control" id="postCategories" placeholder="Post Categories" name="categories" ngModel required>
+      <mat-form-field>
+        <input matInput class="form-control" name="pubishDate" [matDatepicker]="picker" placeholder="Choose a date">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
        <label for="postContent">Post Content</label>
        <ckeditor ngModel required name="content" [editor]="editor" data="<p>Hello world!</p>"></ckeditor>
      </div>

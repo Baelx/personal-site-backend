@@ -28,7 +28,11 @@ export class PostCreateComponent implements OnInit {
       return;
     }
 
-    this.postsService.addPost(form.value.title, form.value.content, form.value.summary, form.value.categories.split(','));
+    this.postsService.addPost(form.value.title,
+                              form.value.content,
+                              form.value.summary,
+                              form.value.categories.split(','),
+                              form.value.publishDate);
     form.reset();
   }
 }
